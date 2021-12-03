@@ -1,6 +1,9 @@
 @font-face {
   font-family: "PT Sans";
-  src: url("../fonts/pt-sans-v11-latin_cyrillic-regular.woff") format("woff"), url("../fonts/pt-sans-v11-latin_cyrillic-regular.woff2") format("woff2"), url("../fonts/pt-sans-v11-latin_cyrillic-700.woff") format("woff"), url("../fonts/pt-sans-v11-latin_cyrillic-700.woff2") format("woff2");
+  src: url("../fonts/pt-sans-v11-latin_cyrillic-regular.woff") format("woff"),
+    url("../fonts/pt-sans-v11-latin_cyrillic-regular.woff2") format("woff2"),
+    url("../fonts/pt-sans-v11-latin_cyrillic-700.woff") format("woff"),
+    url("../fonts/pt-sans-v11-latin_cyrillic-700.woff2") format("woff2");
 }
 body {
   margin: 0;
@@ -73,7 +76,7 @@ input[type="radio"].visually-hidden {
   margin: 0;
   color: #333333;
   -webkit-font-kerning: none;
-          font-kerning: none;
+  font-kerning: none;
 }
 .page-title {
   font-size: 18px;
@@ -81,7 +84,7 @@ input[type="radio"].visually-hidden {
   font-weight: bold;
   margin: 0;
   -webkit-font-kerning: none;
-          font-kerning: none;
+  font-kerning: none;
 }
 @media (min-width: 768px) {
   .page-title {
@@ -254,13 +257,15 @@ input[type="radio"].visually-hidden {
     left: 326px;
   }
 }
-@media (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 1200px) and (min-resolution: 1.5dppx) {
+@media (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 1.5),
+  (min-width: 1200px) and (min-resolution: 1.5dppx) {
   .page-header__intro {
     background-image: url("../img/bg-back-desktop@2x.jpg");
     background-size: auto 518px;
   }
 }
-@media (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 1200px) and (min-resolution: 1.5dppx) {
+@media (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 1.5),
+  (min-width: 1200px) and (min-resolution: 1.5dppx) {
   .page-header__inner-img {
     background-image: url("../img/bg-back-desktop@2x.jpg");
     background-size: auto 518px;
@@ -434,7 +439,7 @@ input[type="radio"].visually-hidden {
     font-size: 14px;
     line-height: 26px;
     -webkit-font-kerning: none;
-            font-kerning: none;
+    font-kerning: none;
     font-weight: bold;
     background-color: #ffffff;
     width: 20%;
@@ -507,7 +512,7 @@ input[type="radio"].visually-hidden {
     width: 768px;
     margin: 0 auto;
     -webkit-font-kerning: none;
-            font-kerning: none;
+    font-kerning: none;
   }
   .intro::before {
     content: none;
@@ -544,7 +549,7 @@ input[type="radio"].visually-hidden {
 .advantages__item-wrap {
   box-sizing: border-box;
   -webkit-font-kerning: none;
-          font-kerning: none;
+  font-kerning: none;
   padding: 40px 27px 40px 27px;
 }
 .advantages__slogan {
@@ -759,7 +764,7 @@ input[type="radio"].visually-hidden {
   .city-offer__info {
     text-align: center;
     -webkit-font-kerning: none;
-            font-kerning: none;
+    font-kerning: none;
   }
   .city-offer__item--souvenirs {
     order: 3;
@@ -920,12 +925,12 @@ input[type="radio"].visually-hidden {
 .intro-photo__title {
   padding: 0px 30px 25px 30px;
   -webkit-font-kerning: none;
-          font-kerning: none;
+  font-kerning: none;
 }
 .intro-photo__contents {
   padding: 0 24px 27px 24px;
   -webkit-font-kerning: none;
-          font-kerning: none;
+  font-kerning: none;
   line-height: 24px;
 }
 .photo {
@@ -984,7 +989,7 @@ input[type="radio"].visually-hidden {
     padding: 0 60px;
     box-sizing: border-box;
     -webkit-font-kerning: none;
-            font-kerning: none;
+    font-kerning: none;
   }
   .photo__reviews-list {
     display: flex;
@@ -1279,7 +1284,7 @@ input[type="radio"].visually-hidden {
   padding: 0 20px;
   margin-bottom: 20px;
   -webkit-font-kerning: none;
-          font-kerning: none;
+  font-kerning: none;
 }
 .form__input {
   font-family: inherit;
@@ -1355,7 +1360,7 @@ input[type="radio"].visually-hidden {
   margin-left: 0;
 }
 .form__icon-phone {
-  background-image: url("/img/icon-phone.svg");
+  background-image: url("../img/icon-phone.svg");
   background-repeat: no-repeat;
   background-color: #e6e6e6;
   background-position: center;
@@ -1363,7 +1368,7 @@ input[type="radio"].visually-hidden {
   height: 58px;
 }
 .form__icon-message {
-  background-image: url("/img/icon-mail.svg");
+  background-image: url("../img/icon-mail.svg");
   background-repeat: no-repeat;
   background-color: #e6e6e6;
   background-position: center;
@@ -1451,7 +1456,7 @@ input[type="radio"].visually-hidden {
   content: "";
   width: 24px;
   height: 16px;
-  background-image: url(/img/icon-tick.svg);
+  background-image: url(../img/icon-tick.svg);
   background-repeat: no-repeat;
   top: 19px;
   left: 37px;
@@ -1676,14 +1681,14 @@ input[type="radio"].visually-hidden {
   .form__button {
     width: auto;
     -webkit-font-kerning: none;
-            font-kerning: none;
+    font-kerning: none;
     margin-right: 154px;
     padding: 16px 75px 16px 64px;
   }
   .form__footnote {
     display: inline-block;
     -webkit-font-kerning: none;
-            font-kerning: none;
+    font-kerning: none;
   }
 }
 @media (min-width: 1200px) {
@@ -1979,7 +1984,7 @@ input[type="radio"].visually-hidden {
   font-size: 14px;
   line-height: 26px;
   -webkit-font-kerning: none;
-          font-kerning: none;
+  font-kerning: none;
   margin-right: 10px;
 }
 .copyright__logo {
